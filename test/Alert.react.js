@@ -4,9 +4,9 @@
 
 import React from 'react';
 import ReactTestUtils from 'react/lib/ReactTestUtils';
-import Alert from '../src/Alert';
+import Alert from '../src/Alert.react';
 
-describe('Alert', () => {
+describe('<Alert>', () => {
     it('insert Alert message', () => {
         let instance = ReactTestUtils.renderIntoDocument(
             <Alert>

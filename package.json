@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "karma start --browsers PhantomJS_custom"
+    "test": "karma start --browsers Chrome"
   },
   "author": "oblank",
   "license": "MIT",
@@ -20,7 +20,9 @@
     "babel-preset-stage-0": "^6.3.13",
     "chai": "^3.4.1",
     "karma": "^0.13.16",
+    "karma-babel-preprocessor": "^6.0.1",
     "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.2",
     "karma-mocha": "^0.2.1",
     "karma-phantomjs-launcher": "^0.2.2",
     "karma-phantomjs-shim": "^1.1.2",

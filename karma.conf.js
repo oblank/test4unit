@@ -9,7 +9,7 @@ module.exports = function(config) {
         basePath: '',
 
         frameworks: [
-            'mocha', 'chai', 'phantomjs-shim'
+            'mocha', 'chai'
         ],
 
         files: [
@@ -32,7 +32,7 @@ module.exports = function(config) {
 
         autoWatch: true,
 
-        browsers: ['PhantomJS', 'PhantomJS_custom'],
+        browsers: ['Chrome'],
 
         // you can define custom flags
         customLaunchers: {
